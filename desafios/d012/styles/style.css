@@ -58,19 +58,33 @@ section {
     font-size: 3.5vh;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
 }
 
 .imagem {
-    background: transparent url() center center/cover no-repeat fixed;
     color: white;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.5);
 }
+
 .imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+#joaninha {
+    background: url(../imagens/background001.jpg) right center/cover no-repeat fixed;
+}
+
+#paginas {
+    background: url(../imagens/background002.jpg) right center/cover no-repeat fixed;
 }
 
 footer {
